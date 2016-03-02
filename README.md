@@ -1,2 +1,3 @@
 # richard-dang.github.io
-My Website
+
+Richard's Webpage in Development
