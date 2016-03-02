@@ -89,7 +89,6 @@ h3 {
 	width:400px;
 	border: 2px solid white;
 	border-radius: 20px 50px;
-	margin:20px;
 }
 
 .name-box{
@@ -111,6 +110,11 @@ h3 {
 	margin:20px;
 }
 
+.image-box {
+	background-color:rgba(255,255,255,0.5);
+	border: 2px solid white;
+}
+
 .align-boxes {
 	display:inline-flex; 
 	justify-content: center;
@@ -121,11 +125,10 @@ h3 {
 	text-align:justify;
 }
 
-
-
-.port-box {
-	background-color:rgba(255,255,255,0.5);
-	border: 2px solid white;
+#about img {
+	height:130px;
+	width: 350px;
+	margin:20px;
 }
 
 #portfolio img {
