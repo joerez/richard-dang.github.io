@@ -24,6 +24,7 @@ p, h2, h3, h4, h5, h6, li{
 	color:white;
 }
 
+
 p, li {
 	font-size: 3rem;
 }
@@ -246,5 +247,3 @@ input, textarea {
 	width: 5rem;
 	height: 5rem;
 }
-
-
