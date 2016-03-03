@@ -181,10 +181,12 @@ h5 {
 #skills img {
 	height: auto;
 	width: 50%;
+	width:6vw;
 }
 
 #skills p {
 	margin:1rem;
+	margin: 0.5rem;
 	font-size:2rem;
 	font-size:1.5vw;
 }
@@ -197,7 +199,8 @@ h5 {
 	height:auto;
 	text-align:center;
 	margin:1rem;
-	padding-top:6rem;
+	padding:2rem;
+	padding:1.5vw;
 }
 
 
