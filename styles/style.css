@@ -26,7 +26,8 @@ p, h2, h3, h4, h5, h6, li{
 
 
 p, li {
-	font-size: 3rem;
+	font-size: 2.5rem;
+	font-size:1vw;
 }
 
 /*Main name*/
@@ -34,16 +35,19 @@ h1 {
 	color:white;
 	font-weight: 700;
 	font-size:18rem;
+	font-size:8vw;
 }
 
 /*Welcome message*/
 h2 {
 	font-size:8rem;
+	font-size:3vw;
 }
 
 /*Section titles*/
 h3 {
-	font-size: 8rem;
+	font-size: 6rem;
+	font-size: 3vw;
 	padding:1rem;
 	margin-top:15rem;
 	margin-bottom:4rem;
@@ -56,13 +60,15 @@ h3 {
 
 /*Textbox titles */
 h4 {
-	font-size:6rem;
+	font-size:4rem;
+	font-size:2vw;
 	margin:2rem;
 }
 
 /*Text below name and contact form*/
 h5 {
-	font-size:4rem;
+	font-size:3rem;
+	font-size:1.5vw;
 	font-weight:700;
 }
 
@@ -73,7 +79,8 @@ h5 {
 	left: 0;
 	z-index: 9999;
 	width: 100%;
-	height: 10rem;
+	height:12rem;
+	height: 5vw;
 	background-color:rgba(0,0,0,0.8);
 	border-color:white;
 	border-width: 0.5rem;
@@ -82,9 +89,10 @@ h5 {
 }
 
 .fixed-navbar li {
-	padding: 4rem;
-	font-weight: 700; 
-	font-size:3rem;
+	padding: 1.5vw;
+	font-weight: 700;
+	font-size:4rem; 
+	font-size:1.5vw;
 	display: inline;
 }
 
@@ -98,10 +106,12 @@ h5 {
 } 
 
  #nav-name {
-	font-size:6rem;
+	font-size:3vw;
 	font-weight:700;
-	margin-left: 8rem;
-	margin-right: 25rem;
+	margin-left: 3rem;
+	margin-left: 3vw;
+	margin-right: 35rem;
+	margin-right: 15vw;
 }
 
 
@@ -111,10 +121,12 @@ h5 {
 
 #home img {
 	margin-top: 10rem;
-	height:100rem;
-	width:100rem;
+	margin-top:2vw;
+	height:auto;
+	width:40%;
 	border: 0.5rem solid white;
 	border-radius: 4rem 14rem;
+
 }
 
 .name-box{
@@ -149,14 +161,14 @@ h5 {
 }
 
 #about img {
-	height:20rem;
-	width: 50rem;
+	height:auto;
+	width: 80%;
 	margin:2rem;
 }
 
 #portfolio img {
-	height:55rem;
-	width: 55rem;
+	height:auto;
+	width: 80%;
 	margin:1rem;
 }
 
@@ -167,20 +179,22 @@ h5 {
 }
 
 #skills img {
-	width: 10rem;
-	height: 10rem;
+	height: auto;
+	width: 50%;
 }
 
 #skills p {
 	margin:1rem;
+	font-size:2rem;
+	font-size:1.5vw;
 }
 
 .skills-box {
 	background-color:rgba(255,255,255,0.5);
 	border: 0.5rem solid white;
 	border-radius: 2rem 6rem;
-	width:20rem;
-	height:20rem;
+	width:10%;
+	height:auto;
 	text-align:center;
 	margin:1rem;
 	padding-top:6rem;
@@ -191,7 +205,7 @@ h5 {
 	background-color:rgba(255,255,255,0.5);
 	border: 0.5rem solid white;
 	border-radius: 3rem 9rem;
-	width:80%;
+	width:70%;
 	text-align:center;
 	margin:0 auto;
 	padding-bottom:5rem;
@@ -203,6 +217,7 @@ h5 {
 
 input, textarea {
 	padding: 2rem;
+	padding: 0.5vw;
 	margin:2rem 0;
 	font-size: 4rem;
 	border: 0.5rem solid white;
@@ -217,8 +232,8 @@ input, textarea {
 }
 
 #footer img {
-	width: 10rem;
-	height: 10rem;
+	width: 5%;
+	height: auto;
 	margin:2rem;
 	margin-top:50rem;
 	background-color:rgba(255,255,255,0.5);
@@ -245,5 +260,11 @@ input, textarea {
 	bottom: 2rem;
 	right: 2rem;
 	width: 5rem;
+	width: 2vw;
 	height: 5rem;
+	height:2vw;
+
 }
+
+
+
