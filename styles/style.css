@@ -13,9 +13,13 @@ body {
 	width:90%;
 	background-color:rgba(0,0,0,0.8);
 	border-radius: 5rem 5rem;
+	border-radius: 5vw 5vw;
 	margin: 15rem auto;
+	margin: 8vw auto;
 	margin-bottom: 5rem;
+	margin-bottom: 4vw;
 	padding:5rem;
+	padding:3vw;
 	border: 0.5rem solid white;
 }
 
@@ -27,7 +31,7 @@ p, h2, h3, h4, h5, h6, li{
 
 p, li {
 	font-size: 2.5rem;
-	font-size:1vw;
+	font-size:1.5vw;
 }
 
 /*Main name*/
@@ -41,7 +45,7 @@ h1 {
 /*Welcome message*/
 h2 {
 	font-size:8rem;
-	font-size:3vw;
+	font-size:3.5vw;
 }
 
 /*Section titles*/
@@ -49,8 +53,10 @@ h3 {
 	font-size: 6rem;
 	font-size: 3vw;
 	padding:1rem;
-	margin-top:15rem;
+	margin-top:12rem;
+	margin-top:5vw;
 	margin-bottom:4rem;
+	margin-bottom:2vw;
 	text-align: center;
 	border: 0.5rem solid white;
 	background-color:rgba(255,255,255,0.5);
@@ -68,7 +74,7 @@ h4 {
 /*Text below name and contact form*/
 h5 {
 	font-size:3rem;
-	font-size:1.5vw;
+	font-size:2vw;
 	font-weight:700;
 }
 
@@ -108,10 +114,8 @@ h5 {
  #nav-name {
 	font-size:3vw;
 	font-weight:700;
-	margin-left: 3rem;
-	margin-left: 3vw;
 	margin-right: 35rem;
-	margin-right: 15vw;
+	margin-right: 10vw;
 }
 
 
@@ -126,6 +130,7 @@ h5 {
 	width:40%;
 	border: 0.5rem solid white;
 	border-radius: 4rem 14rem;
+	border-radius: 3vw 8vw;
 
 }
 
@@ -133,6 +138,7 @@ h5 {
 	background-color:rgba(255,255,255,0.5);
 	border: 0.5rem solid white;
 	border-radius: 4rem 10rem;
+	border-radius: 3vw 6vw;
 	text-align:center;
 
 }
@@ -141,6 +147,7 @@ h5 {
 	background-color:rgba(255,255,255,0.5);
 	border: 0.5rem solid white;
 	border-radius: 2rem 8rem;
+	border-radius: 1vw 5vw;
 	width: 33%;
 	text-align:center;
 	margin:1.5rem;
@@ -181,12 +188,12 @@ h5 {
 #skills img {
 	height: auto;
 	width: 50%;
-	width:6vw;
+	width:8vw;
 }
 
 #skills p {
-	margin:1rem;
-	margin: 0.5rem;
+	margin-top: 1rem;
+	margin-bottom:0;
 	font-size:2rem;
 	font-size:1.5vw;
 }
@@ -195,12 +202,14 @@ h5 {
 	background-color:rgba(255,255,255,0.5);
 	border: 0.5rem solid white;
 	border-radius: 2rem 6rem;
+	border-radius: 1vw 4vw;
 	width:10%;
 	height:auto;
 	text-align:center;
 	margin:1rem;
+	margin:0.5vw;
 	padding:2rem;
-	padding:1.5vw;
+	padding:1vw;
 }
 
 
@@ -208,7 +217,7 @@ h5 {
 	background-color:rgba(255,255,255,0.5);
 	border: 0.5rem solid white;
 	border-radius: 3rem 9rem;
-	width:70%;
+	width:80%;
 	text-align:center;
 	margin:0 auto;
 	padding-bottom:5rem;
@@ -223,7 +232,7 @@ input, textarea {
 	padding: 0.5vw;
 	margin:2rem 0;
 	font-size: 4rem;
-	font-size:1vw;
+	font-size:1.5vw;
 	border: 0.5rem solid white;
 	border-radius: 2rem 5rem;
 	width:80%;
@@ -236,14 +245,17 @@ input, textarea {
 }
 
 #footer img {
-	width: 5%;
+	width: 4%;
 	height: auto;
-	margin:2rem;
+	margin:1.5rem;
+	margin:1vw;
 	margin-top:50rem;
+	margin-top:30vw;
 	background-color:rgba(255,255,255,0.5);
 	padding:1rem;
 	border: 0.5rem solid white;
 	border-radius: 2rem 4rem;
+	border-radius: 1vw 2vw;
 }
 
 #footer a {
@@ -262,11 +274,13 @@ input, textarea {
 #back-to-top img {
 	position:fixed;
 	bottom: 2rem;
+	bottom:0.5vw;
 	right: 2rem;
+	right:0.5vw;
 	width: 5rem;
-	width: 2vw;
+	width: 3vw;
 	height: 5rem;
-	height:2vw;
+	height:3vw;
 
 }
 
