@@ -1,13 +1,13 @@
 #Personal Website
 #####Updated as of: March 6, 2016
 
-##Description:
+##Description
 * My personal website designed to give a brief introduction of who I am and what I enjoy doing. 
 
-##Known Issues:
+##Known Issues
 * Contact form does not work
 
-##Future Upgrades:
+##Future Updates
 * Working contact form
 * Interactive menus
 * Animations
