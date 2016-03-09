@@ -11,4 +11,5 @@
 * Working contact form
 * Interactive menus
 * Animations
-
+* Dropdown menu and block display textboxes for smaller screens
+* Smoother scroll flow
