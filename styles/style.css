@@ -25,34 +25,30 @@ body {
 }
 
 
-p, h2, h3, h4, h5, h6, li{
+p, h1, h2, h3, h4, h5, h6, li{
 	color:white;
 }
 
 
 p, li {
-	font-size: 2.5rem;
-	font-size:1vw;
+	font-size: 2.3rem;
 }
 
 /*Main name*/
 h1 {
-	color:white;
 	font-weight: 700;
-	font-size:18rem;
-	font-size:5.5vw;
+	font-size:14rem;
+	margin:1vw;
 }
 
 /*Welcome message*/
 h2 {
-	font-size:8rem;
-	font-size:2.5vw;
+	font-size:6rem;
 }
 
 /*Section titles*/
 h3 {
-	font-size: 6rem;
-	font-size: 2vw;
+	font-size: 5rem;
 	padding:1rem;
 	margin-top:12rem;
 	margin-top:5vw;
@@ -67,15 +63,13 @@ h3 {
 
 /*Textbox titles */
 h4 {
-	font-size:4rem;
-	font-size:1.4vw;
+	font-size:3rem;
 	margin:2rem;
 }
 
 /*Text below name and contact form*/
 h5 {
-	font-size:3rem;
-	font-size:1.3vw;
+	font-size:3.5rem;
 	font-weight:700;
 }
 
@@ -87,7 +81,7 @@ h5 {
 	z-index: 9999;
 	width: 100%;
 	height:12rem;
-	height: 4vw;
+	height: 4.5vw;
 	background-color:rgba(0,0,0,0.8);
 	border-color:white;
 	border-width: 0.5rem;
@@ -99,12 +93,15 @@ h5 {
 	padding: 1.5vw;
 	font-weight: 700;
 	font-size:4rem; 
-	font-size:1.2vw;
+	font-size:1.6vw;
 	display: inline;
 }
 
 .fixed-navbar li:active {
 	text-shadow: 0.1vw 0.1vw 0.1vw black;
+	position: relative;
+	top: 0.5rem;
+	top: 0.2vw;
 }
 
 .fixed-navbar a:hover{
@@ -119,12 +116,12 @@ h5 {
 
  #nav-name {
  	font-size:7rem;
-	font-size:2.5vw;
+	font-size:2.8vw;
 	font-weight:700;
 	margin-right: 35rem;
-	margin-right: 16vw;
+	margin-right: 12vw;
 	margin-left: 10rem;
-	margin-left: 4vw;
+	margin-left: 2vw;
 }
 
 
@@ -134,10 +131,10 @@ h5 {
 
 #home img {
 	height:auto;
-	width:25%;
+	width:50rem;
 	border: 0.5rem solid white;
 	border-radius: 4rem 14rem;
-	border-radius: 3vw 8vw;
+	border-radius: 2vw 5vw;
 
 }
 
@@ -147,6 +144,7 @@ h5 {
 	border-radius: 4rem 10rem;
 	border-radius: 2vw 5vw;
 	text-align:center;
+	padding:0 2vw;
 
 }
 
@@ -155,7 +153,7 @@ h5 {
 	border: 0.5rem solid white;
 	border-radius: 2rem 8rem;
 	border-radius: 1vw 3vw;
-	width: 30%;
+	width:60rem;
 	text-align:center;
 	margin:1.5rem;
 	margin:1vw;
@@ -171,7 +169,8 @@ h5 {
 
 
 .align-boxes {
-	display:inline-flex; 
+	display:flex; 
+	flex-wrap: wrap;
 	justify-content: center;
 }
 
@@ -182,13 +181,13 @@ h5 {
 
 #about img {
 	height:auto;
-	width: 60%;
+	width:60%;
 	margin:2rem;
 }
 
 #portfolio img {
 	height:auto;
-	width: 60%;
+	width: 80%;
 	margin:1rem;
 }
 
@@ -197,22 +196,19 @@ h5 {
 }
 
 
-
 #skills {
 	text-align: center;
 }
 
 #skills img {
 	height: auto;
-	width: 50%;
-	width:5vw;
+	width: 100%;
 }
 
 #skills p {
 	margin-top: 1rem;
 	margin-bottom:0;
-	font-size:2rem;
-	font-size:1.2vw;
+	font-size:3rem;
 }
 
 .skills-box {
@@ -220,13 +216,13 @@ h5 {
 	border: 0.5rem solid white;
 	border-radius: 2rem 6rem;
 	border-radius: 1vw 3vw;
-	width:10%;
+	width:15rem;
 	height:auto;
 	text-align:center;
 	margin:1rem;
-	margin:1vw;
+	margin:0.5vw;
 	padding:2rem;
-	padding:1vw;
+	padding:2vw;
 }
 
 
@@ -234,6 +230,7 @@ h5 {
 	background-color:rgba(255,255,255,0.5);
 	border: 0.5rem solid white;
 	border-radius: 3rem 9rem;
+	border-radius: 2vw 7vw;
 	width:70%;
 	text-align:center;
 	margin:0 auto;
@@ -253,6 +250,7 @@ input, textarea {
 	font-size:1vw;
 	border: 0.5rem solid white;
 	border-radius: 2rem 5rem;
+	border-radius: 2vw 4vw;
 	width:60%;
 	color:black;
 }
@@ -267,7 +265,7 @@ input:hover {
 }
 
 #footer img {
-	width: 3%;
+	width: 7rem;
 	height: auto;
 	margin:1.5rem;
 	margin:1vw;
@@ -284,6 +282,7 @@ input:hover {
 	background-color:rgba(255,255,255,0.8);
 }
 
+
 #footer a {
 	text-decoration: none;
 }
@@ -292,6 +291,7 @@ input:hover {
  	text-shadow: 0.3rem 0.3rem 0.3rem white;
  	text-decoration: none;
 }
+
 
 #footer .copyright {
 	margin:0;
@@ -303,11 +303,8 @@ input:hover {
 	bottom:0.1vw;
 	right: 2rem;
 	right:1vw;
-	width: 5rem;
-	width: 1.5vw;
-	height: 5rem;
-	height:1.5vw;
-
+	width: 4rem;
+	height: 4rem;
 }
 
 
