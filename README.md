@@ -16,3 +16,4 @@
 * Change navbar item to show current section shown
 * Create main name animation
 * Smoother scroll animation from navbar
+* Invert social media button colors on hover
