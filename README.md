@@ -11,5 +11,10 @@
 * Working contact form
 * Interactive menus
 * Animations
-* Dropdown menu and block display textboxes for smaller screens
-* Smoother scroll flow
+* *Animate software project w/ game play screens
+* *Transition horizontally between projects
+* *Animate skills icons
+* *Change navbar item to show current section shown
+* *Create main name animation
+* Interactive dropdown menu for smaller screens
+* Smoother scroll animation from navbar
