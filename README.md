@@ -9,12 +9,10 @@
 
 ##Future Updates
 * Working contact form
-* Interactive menus
-* Animations
-* *Animate software project w/ game play screens
-* *Transition horizontally between projects
-* *Animate skills icons
-* *Change navbar item to show current section shown
-* *Create main name animation
 * Interactive dropdown menu for smaller screens
+* Animate software project w/ game play screens
+* Transition horizontally between projects
+* Animate skills icons
+* Change navbar item to show current section shown
+* Create main name animation
 * Smoother scroll animation from navbar
