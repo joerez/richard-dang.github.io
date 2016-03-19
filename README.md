@@ -6,10 +6,11 @@
 
 
 ##Features
-*Smooth transition scrolling with navbar
+* Smooth transition scrolling with navbar
 
 ##Known Issues
 * Contact form does not work
+* Current nav item shown
 
 ##Future Updates
 * Working contact form
@@ -17,6 +18,5 @@
 * Animate software project w/ game play screens
 * Transition horizontally between projects
 * Animate skills icons
-* Change navbar item to show current section shown
 * Create main name animation
 * Invert social media button colors on hover
