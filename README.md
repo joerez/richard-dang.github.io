@@ -20,3 +20,5 @@
 * Animate skills icons
 * Create main name animation
 * Invert social media button colors on hover
+* Expandable textboxes
+* Letter count on contact form
