@@ -4,6 +4,10 @@
 ##Description
 * My personal website designed to give a brief introduction of who I am and what I enjoy doing. 
 
+
+##Features
+*Smooth transition scrolling with navbar
+
 ##Known Issues
 * Contact form does not work
 
@@ -15,5 +19,4 @@
 * Animate skills icons
 * Change navbar item to show current section shown
 * Create main name animation
-* Smoother scroll animation from navbar
 * Invert social media button colors on hover
