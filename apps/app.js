@@ -59,7 +59,7 @@ var main = function () {
 	$('#animate-4').hover(function (){
 		$(this).attr('src', 'images/portfolio/intelligent-car.gif');
 	}, function () {
-		$(this).attr('src', 'images/portfolio/intelligent-car.jpg');
+		$(this).attr('src', 'images/portfolio/intelligent-car-start.gif');
 	});
 
 
