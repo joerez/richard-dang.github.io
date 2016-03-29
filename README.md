@@ -7,6 +7,7 @@
 
 ##Features
 * Smooth transition scrolling with navbar
+* Projects and skills animated on hover
 
 ##Known Issues
 * Contact form does not work
