@@ -10,14 +10,12 @@
 
 ##Known Issues
 * Contact form does not work
-* Current nav item shown
+* Current nav item not shown
 
 ##Future Updates
 * Working contact form
 * Interactive dropdown menu for smaller screens
-* Animate software project w/ game play screens
-* Transition horizontally between projects
-* Animate skills icons
+* Transition horizontally between projects w/ arrows
 * Create main name animation
 * Invert social media button colors on hover
 * Expandable textboxes
