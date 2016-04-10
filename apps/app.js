@@ -45,18 +45,26 @@ var main = function () {
 	});
 
 	$('#animate-2').hover(function (){
+		$(this).attr('src', 'images/portfolio/address-book.gif');
+	}, function () {
+		$(this).attr('src', 'images/portfolio/address-book-start.png');
+	});
+
+
+	$('#animate-3').hover(function (){
 		$(this).attr('src', 'images/portfolio/boggle.gif');
 	}, function () {
 		$(this).attr('src', 'images/portfolio/boggle-start.png');
 	});
 
-	$('#animate-3').hover(function (){
+
+	$('#animate-4').hover(function (){
 		$(this).attr('src', 'images/portfolio/hangman.gif');
 	}, function () {
 		$(this).attr('src', 'images/portfolio/hangman-start.png');
 	});
 
-	$('#animate-4').hover(function (){
+	$('#animate-5').hover(function (){
 		$(this).attr('src', 'images/portfolio/intelligent-car.gif');
 	}, function () {
 		$(this).attr('src', 'images/portfolio/intelligent-car-start.png');
