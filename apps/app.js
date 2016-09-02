@@ -38,6 +38,12 @@ var main = function () {
 	});
 
 //animate projects
+	$('#animate-0').hover(function (){
+		$(this).attr('src', 'images/portfolio/step-tracker.gif');
+	}, function () {
+		$(this).attr('src', 'images/portfolio/step-tracker-start.png');
+	});
+
 	$('#animate-1').hover(function (){
 		$(this).attr('src', 'images/portfolio/tetristry.gif');
 	}, function () {
