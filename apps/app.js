@@ -14,7 +14,7 @@ var main = function () {
 	$("a[href*='#']").click(function(event){ //selects all attributes containing '#'
 	    $('html, body').animate({
 	        scrollTop: $($(this).attr('href')).offset().top //selects the top offset of href and scrolls to it
-	    	
+
 	    }, 500);
 	    event.preventDefault(); // prevent default event from occuring
 		console.log($($(this).attr('href')).offset().top);
@@ -22,19 +22,25 @@ var main = function () {
 	});
 
 //skills animations
-	$('#skills p').hide();
+	//$('#skills p').hide();
 	$('.skills-box').hover(function (){
 		$('img', this).animate({
-			width:'100%',
+			//width:'80%',
 			opacity:'1'
 		}, 300);
-		$('p',this).fadeIn(300);
+			$('p',this).animate({
+				opacity:'1'
+			})
+	//	$('p',this).fadeIn(200);
 	}, function () {
 		$('img', this).animate({
-			width:'80%',
-			opacity:'0.5'
+			//width:'60%',
+			opacity:'0.3'
 		}, 300);
-		$('p',this).fadeOut(300);
+			$('p',this).animate({
+				opacity:'0.3'
+			})
+		//$('p',this).fadeOut(200);
 	});
 
 //animate projects
@@ -97,7 +103,7 @@ var main = function () {
 		}, 300, function () {
 			currentBox.removeClass('active-box');
 			nextBox.addClass('active-box next-box');
-			nextBox.animate({ 
+			nextBox.animate({
 			left:'+=50rem'
 			}, 300);
 		});
@@ -117,7 +123,7 @@ var main = function () {
 		}, 300, function () {
 			currentBox.removeClass('active-box');
 			prevBox.addClass('active-box prev-box');
-			prevBox.animate({ 
+			prevBox.animate({
 			right:'+=50%'
 			}, 300);
 		});
@@ -142,7 +148,7 @@ var main = function () {
 		 if (scrollPos >= $($("a[href='#contact']").attr('href')).offset().top) {
 			$("a[href='#contact']").children().addClass('current-nav-item');
 		}
-	});*/	
+	});*/
 };
 
 $(document).ready(main);

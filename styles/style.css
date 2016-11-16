@@ -30,15 +30,15 @@ p, li {
 	}
 h1 {
 	font-weight:700;
-	font-size:14rem;
+	font-size:10rem;
 	margin:1vw;
 	}
 h2 {
-	font-size:6rem;
+	font-size:4rem;
 	}
 h3 {
 	font-size:5rem;
-	padding:1rem;
+	padding:0.5rem;
 	margin-top:12rem;
 	margin-top:5vw;
 	margin-bottom:4rem;
@@ -53,7 +53,7 @@ h4 {
 	margin:2rem;
 	}
 h5 {
-	font-size:3.5rem;
+	font-size:3rem;
 	font-weight:700;
 	}
 .fixed-navbar {
@@ -91,7 +91,7 @@ h5 {
 	}
 #nav-name {
 	font-size:7rem;
-	font-size:2.8vw;
+	font-size:2.5vw;
 	font-weight:700;
 	margin-right:35rem;
 	margin-right:12vw;
@@ -103,7 +103,7 @@ h5 {
 	}
 #home img {
 	height:auto;
-	width:50rem;
+	width:30rem;
 	border:0.5rem solid white;
 	border-radius:4rem 14rem;
 	border-radius:2vw 5vw;
@@ -121,10 +121,10 @@ h5 {
 	border:0.5rem solid white;
 	border-radius:2rem 8rem;
 	border-radius:1vw 3vw;
-	width:60rem;
+	width:55rem;
 	text-align:center;
 	margin:1.5rem;
-	margin:1vw;
+	margin:2vw;
 /*	display:none;*/
 	position:relative;
 	}
@@ -185,11 +185,11 @@ h5 {
 	}
 #animate-0 {
 	width:50% !important;
-}	
+}
 #portfolio img {
 	height:auto;
-	width:80%;
-	margin:1rem;
+	width:70%;
+	margin:3rem;
 	opacity:0.5;
 	}
 
@@ -202,13 +202,14 @@ h5 {
 	}
 #skills img {
 	height:auto;
-	width:80%;
-	opacity:0.5;
+	width:70%;
+	opacity:0.3;
 	}
 #skills p {
 	margin-top:1rem;
 	margin-bottom:0;
 	font-size:3rem;
+	opacity: 0.3;
 	}
 .skills-box {
 	background-color:rgba(255,255,255,0.5);
@@ -219,7 +220,7 @@ h5 {
 	height:auto;
 	text-align:center;
 	margin:1rem;
-	margin:0.5vw;
+	margin-right:3vw;
 	padding:2rem;
 	padding:2vw;
 	}
@@ -228,7 +229,7 @@ h5 {
 	border:0.5rem solid white;
 	border-radius:3rem 9rem;
 	border-radius:2vw 7vw;
-	width:70%;
+	width:60%;
 	text-align:center;
 	margin:0 auto;
 	padding-bottom:5rem;
@@ -246,7 +247,7 @@ input, textarea {
 	border:0.5rem solid white;
 	border-radius:2rem 5rem;
 	border-radius:2vw 4vw;
-	width:60%;
+	width:80%;
 	color:black;
 	}
 input:hover {
@@ -256,12 +257,12 @@ input:hover {
 	text-align:center
 }
 #footer img {
-	width:5rem;
+	width:4rem;
 	height:auto;
 	margin:1.5rem;
 	margin:1vw;
-	margin-top:50rem;
-	margin-top:20vw;
+	margin-top:40rem;
+	margin-top:15vw;
 	background-color:rgba(255,255,255,0.5);
 	padding:1rem;
 	border:0.5rem solid white;
@@ -294,4 +295,3 @@ input:hover {
 .current-nav-item {
 	color:gray;
 }
-
