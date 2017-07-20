@@ -272,7 +272,8 @@ h5 {
   margin: 2vw 10vw;
 }
 
-input, textarea {
+input, textarea, #email_button {
+  max-width: 80%;
   padding: 2rem;
   padding: 0.5vw;
   margin: 2rem 0;
@@ -283,6 +284,12 @@ input, textarea {
   border-radius: 2vw 4vw;
   width: 80%;
   color: black;
+}
+
+textarea {
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+  outline: none;
 }
 
 input:hover {

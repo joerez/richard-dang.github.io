@@ -76,6 +76,25 @@ var main = function() {
     }, function() {
         $(this).attr('src', 'images/portfolio/intelligent-car-start.png');
     });
+
+
+    // $("#contact-box").children().click(function () {
+    //  alert ("Contact is not working at the moment, sorry!\nPlease send your inquiry to: richardspacedang@gmail.com");
+    //  });
+
+    var textarea = document.querySelector('textarea');
+
+    textarea.addEventListener('keydown', autosize);
+
+    function autosize() {
+        var el = this;
+        setTimeout(function() {
+            el.style.cssText = 'height:auto; padding:0';
+            el.style.cssText = 'height:' + el.scrollHeight + 'px';
+        }, 0);
+    }
+
+
 };
 
 $(document).ready(main);
