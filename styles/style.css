@@ -108,8 +108,6 @@ h5 {
   font-size: 7rem;
   font-size: 2.5vw;
   font-weight: 700;
-  margin-right: 35rem;
-  margin-right: 12vw;
   margin-left: 10rem;
   margin-left: 2vw;
 }
@@ -343,4 +341,13 @@ input:hover {
 
 .current-nav-item {
   color: gray;
+}
+
+#logo {
+  width: 4rem;
+  height: auto;
+  margin-left: -1rem;
+  margin-right: 35rem;
+  margin-right: 12vw;
+  opacity: 0.8;
 }
