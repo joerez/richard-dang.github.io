@@ -18,7 +18,6 @@ var main = function() {
         }, 500);
         event.preventDefault(); // prevent default event from occuring
         console.log($($(this).attr('href')).offset().top);
-
     });
 
     //skills animations
@@ -77,24 +76,16 @@ var main = function() {
         $(this).attr('src', 'images/portfolio/intelligent-car-start.png');
     });
 
-
-    // $("#contact-box").children().click(function () {
-    //  alert ("Contact is not working at the moment, sorry!\nPlease send your inquiry to: richardspacedang@gmail.com");
-    //  });
-
-    var textarea = document.querySelector('textarea');
-
-    textarea.addEventListener('keydown', autosize);
+    //auto expand email text box
+    document.querySelector('textarea').addEventListener('keydown', autosize);
 
     function autosize() {
-        var el = this;
+        var self = this;
         setTimeout(function() {
-            el.style.cssText = 'height:auto; padding:0';
-            el.style.cssText = 'height:' + el.scrollHeight + 'px';
+            self.style.cssText = 'height:auto; padding:0';
+            self.style.cssText = 'height:' + self.scrollHeight + 'px';
         }, 0);
     }
-
-
 };
 
 $(document).ready(main);
