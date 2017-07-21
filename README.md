@@ -11,11 +11,9 @@
 * Contact form
 
 ## Known Issues
-* Contact form does not work
-* Current nav item not shown
+* None
 
 ## Future Updates
 * Interactive dropdown menu for smaller screens
-* Transition horizontally between projects w/ arrows
 * Invert social media button colors on hover
 * Letter count on contact form
