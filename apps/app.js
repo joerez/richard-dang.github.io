@@ -1,5 +1,25 @@
 var main = function() {
 
+    //carousel animations
+    $('.slick').slick({
+        dots: true,
+        infinite: true,
+        adaptiveHeight: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+    });
+
+    $('.slick-skills').slick({
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        autoplay: true,
+        autoplaySpeed: 2000,
+
+    });
+
     //Change current nav-item color
     $('.nav-item').click(function() {
         $('.nav-item').removeClass('current-nav-item');
@@ -86,6 +106,21 @@ var main = function() {
             self.style.cssText = 'height:' + self.scrollHeight + 'px';
         }, 0);
     }
+
+    //empty form check
+    $('#contact-box form').submit(function() {
+        var textbox = $('textarea').val();
+        var email = $('input[type="email"]').val();
+        if (textbox === '') {
+            alert('Please enter a message before submiting!');
+            return false;
+        }
+        if (email === '') {
+            alert('Please enter your email before submiting!');
+            return false;
+        }
+    });
+
 };
 
 $(document).ready(main);
