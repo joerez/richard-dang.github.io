@@ -9,6 +9,7 @@ var main = function() {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
+        centerMode: true
     });
 
     $('.slick-skills').slick({
@@ -17,8 +18,12 @@ var main = function() {
         slidesToScroll: 5,
         autoplay: true,
         autoplaySpeed: 2000,
-
     });
+
+    //expand text boxes
+    $('.expand-text').click(function() {
+        $(this).next().slideToggle(500);
+    })
 
     //Change current nav-item color
     $('.nav-item').click(function() {
