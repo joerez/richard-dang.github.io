@@ -21,9 +21,9 @@ var main = function() {
     });
 
     //expand text boxes
-    $('.expand-text').click(function() {
-        $(this).next().slideToggle(500);
-    })
+    $('#portfolio .text-box').hover(function() {
+        $(this).find('.center-text').slideToggle(500);
+    });
 
     //Change current nav-item color
     $('.nav-item').click(function() {

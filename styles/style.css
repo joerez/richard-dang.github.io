@@ -147,12 +147,17 @@ h5 {
     outline: none;
 }
 
+.text-box p, li {
+    font-size: 1.8rem;
+}
+
 .expand-text:hover {
     opacity: 0.5;
 }
 
 .image-box {
     background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 5rem;
 }
 
 .image-box img, .skills-box img {
