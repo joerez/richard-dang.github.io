@@ -1,17 +1,13 @@
-# Personal Website (richarddang.ca)
-##### Updated as of: March 6, 2016
+# Personal Website [richarddang.com](richarddang.com)
 
 ## Description
 * My personal website designed to give a brief introduction of who I am and what I enjoy doing.
 
-
 ## Features
-* Smooth transition scrolling with navbar
 * Projects and skills animated on hover
+* Carousel animations
 * Contact form
-
-## Known Issues
-* None
+* Smooth transition scrolling with navbar
 
 ## Future Updates
 * Interactive dropdown menu for smaller screens
