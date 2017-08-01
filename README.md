@@ -1,4 +1,4 @@
-# [RichardDang.com](richarddang.com)
+# [RichardDang.com](http://richarddang.com)
 
 ## Description
 * My personal website designed to give a brief introduction of who I am and what I enjoy doing.
