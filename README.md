@@ -9,6 +9,10 @@
 * Contact form
 * Smooth transition scrolling with navbar
 
+## Screenshots
+
+![richarddang.com](https://github.com/Richard-Dang/richard-dang.github.io/blob/master/images/homepage.png?raw=true)
+
 ## Future Updates
 * Interactive dropdown menu for smaller screens
 * Invert social media button colors on hover
