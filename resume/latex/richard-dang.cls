@@ -65,15 +65,16 @@
 \setmainfont{Raleway}[ 
 	Path = Fonts/,
 	Extension = .ttf ,
-    UprightFont = *-Light,
-    ItalicFont = *-LightItalic,
+    UprightFont = *-Regular,
+    ItalicFont = *-Italic,
     BoldFont = *-SemiBold,]    
 
 \newfontfamily\titlefont{Raleway}[ 
 	Path = Fonts/,
 	Extension = .ttf,
-	UprightFont = *-Light,
+	UprightFont = *-Regular,
     BoldFont = *-SemiBold,
+    ItalicFont = *-Italic,
     ]        
 
 % --------------------------------- %
@@ -99,13 +100,13 @@
     \node [below right, fill=darkermain, minimum height=\hdrheight, minimum width=\paperwidth, outer sep=0] (name) at (current page.north west) {};
     % Node for the name
     \node[anchor=base, text=white, inner sep=0.10 cm] (nametext) at (name.base) {%
-          \fontsize{40pt}{32pt}\color{white}%
+          \fontsize{45pt}{45pt}\color{white}%
           {\titlefont \textbf{#1}~}{\titlefont \textbf{#2}\par}
           };
     % Address
     \node[anchor=north, text=white, inner sep=0.20 cm] (address) at (nametext.south)  {%
           \fontsize{14pt}{14pt}\color{white}%
-          {\titlefont \textbf{#3}~}{\titlefont \textbf{#4}\par}
+          {\titlefont \textit{#3}~}{\titlefont \textit{#4}\par}
           };
     % Phone/mail/nationality
     \node[anchor=north, text=lightermain] at (address.south)  {#5};
