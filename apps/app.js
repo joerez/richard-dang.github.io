@@ -63,42 +63,48 @@ var main = function() {
     });
 
     //animate projects
-    $('#animate-0').hover(function() {
-        $(this).attr('src', 'images/portfolio/step-tracker.gif');
+    $('#atom-leetcode').hover(function() {
+        $(this).find('img').attr('src', 'images/portfolio/atom-leetcode.gif');
     }, function() {
-        $(this).attr('src', 'images/portfolio/step-tracker-start.png');
+        $(this).find('img').attr('src', 'images/portfolio/atom-leetcode-start.png');
     });
 
-    $('#animate-1').hover(function() {
-        $(this).attr('src', 'images/portfolio/tetristry.gif');
+    $('#step-tracker').hover(function() {
+        $(this).find('img').attr('src', 'images/portfolio/step-tracker.gif');
     }, function() {
-        $(this).attr('src', 'images/portfolio/tetristry-start.png');
+        $(this).find('img').attr('src', 'images/portfolio/step-tracker-start.png');
     });
 
-    $('#animate-2').hover(function() {
-        $(this).attr('src', 'images/portfolio/address-book.gif');
+    $('#tetristry').hover(function() {
+        $(this).find('img').attr('src', 'images/portfolio/tetristry.gif');
     }, function() {
-        $(this).attr('src', 'images/portfolio/address-book-start.png');
+        $(this).find('img').attr('src', 'images/portfolio/tetristry-start.png');
+    });
+
+    $('#address-book').hover(function() {
+        $(this).find('img').attr('src', 'images/portfolio/address-book.gif');
+    }, function() {
+        $(this).find('img').attr('src', 'images/portfolio/address-book-start.png');
     });
 
 
-    $('#animate-3').hover(function() {
-        $(this).attr('src', 'images/portfolio/boggle.gif');
+    $('#boggle').hover(function() {
+        $(this).find('img').attr('src', 'images/portfolio/boggle.gif');
     }, function() {
-        $(this).attr('src', 'images/portfolio/boggle-start.png');
+        $(this).find('img').attr('src', 'images/portfolio/boggle-start.png');
     });
 
 
-    $('#animate-4').hover(function() {
-        $(this).attr('src', 'images/portfolio/hangman.gif');
+    $('#hangman').hover(function() {
+        $(this).find('img').attr('src', 'images/portfolio/hangman.gif');
     }, function() {
-        $(this).attr('src', 'images/portfolio/hangman-start.png');
+        $(this).find('img').attr('src', 'images/portfolio/hangman-start.png');
     });
 
-    $('#animate-5').hover(function() {
-        $(this).attr('src', 'images/portfolio/intelligent-car.gif');
+    $('#intelligent-car').hover(function() {
+        $(this).find('img').attr('src', 'images/portfolio/intelligent-car.gif');
     }, function() {
-        $(this).attr('src', 'images/portfolio/intelligent-car-start.png');
+        $(this).find('img').attr('src', 'images/portfolio/intelligent-car-start.png');
     });
 
     //auto expand email text box
