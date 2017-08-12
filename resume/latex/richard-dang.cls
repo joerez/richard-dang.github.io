@@ -10,7 +10,7 @@
 \setlength{\margin}{13mm}
 % Size of the left column
 \newlength{\leftcol}
-\setlength{\leftcol}{0.16\paperwidth}
+\setlength{\leftcol}{0.15\paperwidth}
 % Height of the header
 \newlength{\hdrheight}
 \setlength{\hdrheight}{44mm}
