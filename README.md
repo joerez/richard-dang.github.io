@@ -11,7 +11,7 @@
 
 ## Screenshots
 
-![richarddang.com](https://github.com/Richard-Dang/richard-dang.github.io/blob/master/images/homepage.png?raw=true)
+![richarddang.com](https://github.com/Richard-Dang/richard-dang.github.io/blob/master/images/misc/homepage.png?raw=true)
 
 ## Future Updates
 * Interactive dropdown menu for smaller screens
