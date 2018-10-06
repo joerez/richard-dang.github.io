@@ -1,3 +1,7 @@
+* {
+    transition: all 250ms;
+}
+
 html {
     font-family: 'Montserrat', sans-serif;
     font-size: 50%;
