@@ -7,16 +7,16 @@
 % --------------------------------- %
 % Size of the margin
 \newlength{\margin}
-\setlength{\margin}{13mm}
+\setlength{\margin}{10mm}
 % Size of the left column
 \newlength{\leftcol}
 \setlength{\leftcol}{0.15\paperwidth}
 % Height of the header
 \newlength{\hdrheight}
-\setlength{\hdrheight}{44mm}
+\setlength{\hdrheight}{40mm}
 % Vertical space between rows/paragraphs
 \newlength{\vspacepar}
-\setlength{\vspacepar}{0.4\baselineskip}
+\setlength{\vspacepar}{0.2\baselineskip}
 % Horizontal space before and after vertical bar (|) between address and contact details
 \newlength{\hspaddress}
 \setlength{\hspaddress}{1em}
@@ -48,7 +48,7 @@
 % --------------------------------- %
 % Skip after the header
 \newlength{\hdrskip}
-\setlength{\hdrskip}{\hdrheight-\margin}
+\setlength{\hdrskip}{\hdrheight-15mm}
 % Width of the right column
 \newlength{\rightcol}
 \setlength{\rightcol}{\paperwidth-\leftcol}
@@ -100,12 +100,12 @@
     \node [below right, fill=darkermain, minimum height=\hdrheight, minimum width=\paperwidth, outer sep=0] (name) at (current page.north west) {};
     % Node for the name
     \node[anchor=base, text=white, inner sep=0.10 cm] (nametext) at (name.base) {%
-          \fontsize{45pt}{45pt}\color{white}%
+          \fontsize{40pt}{40pt}\color{white}%
           {\titlefont \textbf{#1}~}{\titlefont \textbf{#2}\par}
           };
     % Address
     \node[anchor=north, text=white, inner sep=0.20 cm] (address) at (nametext.south)  {%
-          \fontsize{14pt}{14pt}\color{white}%
+          \fontsize{12pt}{12pt}\color{white}%
           {\titlefont \textit{#3}~}{\titlefont \textit{#4}\par}
           };
     % Phone/mail/nationality
